@@ -1,0 +1,298 @@
+body {
+    font-size: 12px;
+}
+
+a {
+    color: #039;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #039;
+}
+
+.header-container {
+    height: 58px;
+    background-color: rgb(63, 71, 95);
+}
+
+.logo {
+    text-indent: -9999px;
+    background-image: url(../images/logo.png);
+    background-position: -484px -542px;
+    width: 160px;
+    height: 34px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 110px;
+}
+
+.btn {
+    border-radius: 2px !important;
+    font-family: 'Lucida Grande', 'LucidaGrande', Arial, sans-serif !important;
+    text-shadow: 1px 1px 0 #29619b !important;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 2px 2px -1px rgba(0, 0, 0, 0.15) !important;
+}
+
+#btn-ucretsiz-ilan {
+    background: #489af1;
+    border: 0;
+    color: #fff;
+    padding: 10px 19px 8px 19px;
+    font-size: 12px;
+    margin-left: 11px;
+    margin-top: 3px;
+}
+
+#btn-ucretsiz-ilan:active {
+    background: #3388e3;
+}
+
+#btn-ucretsiz-ilan:hover {
+    background: #3388e3;
+}
+
+.right-nav-link {
+    display: block;
+    color: #ebebeb;
+    font-size: 11px;
+    text-shadow: 1px 1px 0 #2f3339;
+    text-align: right;
+    padding: 5px 10px 5px 10px;
+    margin-top: 8px;
+}
+
+.right-nav-link:hover {
+    text-decoration: underline;
+    color: #ebebeb;
+}
+
+#register-link {
+    box-shadow: inset 1px 0 0 0 #60656e;
+}
+
+#navbar-search-form {
+    width: 290px;
+    position: relative;
+}
+
+#input-search {
+    width: 290px;
+    height: 28px;
+    float: left;
+    padding-left: 7px;
+    padding-right: 40px;
+    background: #2f3546;
+    font-size: 11px;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizingspecial-categories: content-box;
+}
+
+#input-search:focus {
+    background-color: white;
+}
+
+#btn-search-submit {
+    position: absolute;
+    right: 8px;
+    height: 42px;
+    padding: 0;
+    margin: 0;
+    width: 38px;
+    border: 0;
+    cursor: pointer;
+    background: 0;
+    outline: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+#btn-search-submit:before {
+    background-image: url(../images/logo.png);
+    background-position: -1472px -70px;
+    width: 16px;
+    height: 16px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    text-indent: 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+#detailed-search-link {
+    color: #fff;
+    float: left;
+    margin-left: 24px;
+}
+
+/*Left Nav Styles Started */
+
+h3.category-title {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 7px;
+    font-size: 13px;
+    font-weight: normal;
+}
+h3.category-title small {
+    margin-top: 1px;
+    font-size: 12px;
+    float: right;
+}
+
+ul.leftnav-category {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 8px;
+    padding-left: 0;
+}
+
+.leftnav-category>li:first-child a {
+    color: #039;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.leftnav-category-item {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.leftnav-category-item:before {
+    background-image: url(../images/category_icons.png);
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.category-acil-acil:before {
+    background-position: -744px -24px;
+
+}
+
+.category-fiyati-dusen:before {
+    background-position: -552px -216px;
+}
+
+.category-son-48-saat:before {
+    background-position: -168px -600px;
+}
+
+.category-oto-360:before {
+    background-position: -720px -48px;
+}
+
+.category-emlak-360:before {
+    background-position: -600px -168px;
+}
+
+.leftnav-category-item a .new-category {
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 10px;
+    color: #fff;
+    bottom: 2px;
+    line-height: 27px;
+}
+
+.new-category:before {
+    background-image: url(../images/homepage_beb2becad39a447f4fe46dbeeb34876a.png);
+    background-position: -77px -37px;
+    width: 38px;
+    height: 14px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    z-index: -1;
+    top: 7px;
+    left: -10px;
+}
+
+.category-emlak:before {
+    background-position: -624px -144px;
+}
+
+.category-vasita:before {
+    background-position: -96px -672px;
+}
+
+.category-yedek-parca:before {
+    background-position: 0 -768px;
+}
+.category-ikinci-el-ve-sifir:before {
+    background-position: -360px -408px;
+}
+
+.category-is-makineleri:before {
+    background-position: -264px -504px;
+}
+
+.category-ustalar-hizmetler:before {
+    background-position: -120px -648px;
+}
+
+.category-ozel-ders:before {
+    background-position: -240px -528px;
+}
+
+.category-is-ilanlari:before {
+    background-position: -336px -432px;
+}
+
+.category-yardimci-arayanlar:before {
+    background-position: -24px -744px;
+}
+
+.category-hayvanlar-alemi:before {
+    background-position: -480px -288px;
+}
+
+.category-hikayeni-paylas:before {
+    background-position: -432px -336px;
+}
+
+.category-efsane-ilanlar:before {
+    background-position: -696px -72px;
+}
+
+.category-ilginç-ilanlar:before {
+    background-position: -312px -456px;
+}
+
+.leftnav-category-item > a + span {
+    color: #a1a1a1;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.category-show-all:after {
+    background-image: url(../images/homepage_beb2becad39a447f4fe46dbeeb34876a.png);
+    background-position: -159px 0;
+    width: 12px;
+    height: 6px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: relative;
+    left: 8px;
+    bottom: 1px;
+}
+
+/*Left Nav Styles Ended */

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sahibinden Satılık, Kiralık, Emlak, Oto, Alışveriş Ürünleri</title>
+    <link rel="shortcut icon" href="https://www.sahibinden.com/favicon.ico" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css">
+
+    <script type="text/js" src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Header Starts -->
+<div class="container-fluid header-container">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand logo" href="/">Sahibinden</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <form class="form-inline" id="navbar-search-form">
+                        <input class="form-control mr-sm-2" type="search" id="input-search"
+                               placeholder="Kelime, ilan no veya mağaza adı ile ara" aria-label="Search">
+                        <button class="" type="submit" id="btn-search-submit"></button>
+                    </form>
+
+                    <a href="https://www.sahibinden.com/arama/detayli" id="detailed-search-link">
+                        Detaylı Arama</a>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link right-nav-link" href="#">Giriş Yap</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link right-nav-link" id="register-link" href="#">Üye Ol</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-primary" id="btn-ucretsiz-ilan" href="#">Ücretsiz* İlan Ver</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header Ends -->
+
+<!-- Body Stars-->
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            <div class="mt-5"></div>
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-acil-acil"><a href="#">Acil Acil</a></li>
+                <li class="leftnav-category-item category-fiyati-dusen"><a href="#">Fiyatı Düşenler</a></li>
+                <li class="leftnav-category-item category-son-48-saat"><a href="#">Son 48 Saat / 1 Hafta / 1 Ay</a></li>
+            </ul>
+
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-oto-360"><a href="#">Oto360 <span
+                        class="new-category">yeni</span></a></li>
+                <li class="leftnav-category-item category-emlak-360"><a href="#">Emlak360 <span class="new-category">yeni</span></a>
+                </li>
+            </ul>
+
+            <!--Category Emlak-->
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-emlak"><a href="#">Emlak</a> <span>(1.049.770)</span></li>
+                <li class="leftnav-category-item"><a href="#">Konut</a> <span>(711.908)</span></li>
+                <li class="leftnav-category-item"><a href="#">İşyeri</a> <span>(133.321)</span></li>
+                <li class="leftnav-category-item"><a href="#">Arsa</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Projeler</a></li>
+                <li class="leftnav-category-item"><a href="#">Bina</a> <span>(9.777)</span></li>
+                <li class="leftnav-category-item"><a href="#">Devremülk</a> <span>(2.114)</span></li>
+                <li class="leftnav-category-item"><a href="#">Turistik Tesis</a> <span>(1.762)</span></li>
+            </ul>
+            <!--Category Emlak-->
+
+            <!--Category Vasıta-->
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-vasita"><a href="#">Vasıta</a> <span>(439.867)</span></li>
+                <li class="leftnav-category-item"><a href="#">Otomobil</a> <span>(257.523)</span></li>
+                <li class="leftnav-category-item"><a href="#">Arazi, SUV & Pickup</a> <span>(36.061)</span></li>
+                <li class="leftnav-category-item"><a href="#">Motosiklet</a> <span>(29.866)</span></li>
+                <li class="leftnav-category-item"><a href="#">Minivan & Panelvan</a> <span>(58.965)</span></li>
+                <li class="leftnav-category-item"><a href="#">Ticari Araçlar</a> <span>(35.356)</span></li>
+                <li class="leftnav-category-item"><a href="#">Kiralık Araçlar</a> <span>(8.916)</span></li>
+                <li class="leftnav-category-item"><a href="#">Deniz Araçları</a> <span>(4.115)</span></li>
+                <li class="leftnav-category-item"><a href="#">Hasarlı Araçlar</a> <span>(4.365)</span></li>
+                <li class="leftnav-category-item category-show-all"><a href="#">Tümünü Göster</a></li>
+            </ul>
+            <!--Category Vasıta-->
+
+            <!--Category Yedek Parça, Aksesuar, Donanım & Tuning-->
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-yedek-parca"><a href="#">Yedek Parça, Aksesuar, Donanım &
+                    Tuning</a> <span>(1.827.171)</span></li>
+                <li class="leftnav-category-item"><a href="#">Otomotiv Ekipmanları</a> <span>(711.908)</span></li>
+                <li class="leftnav-category-item"><a href="#">Motosiklet Ekipmanları</a> <span>(133.321)</span></li>
+                <li class="leftnav-category-item"><a href="#">Deniz Aracı Ekipmanları</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item category-show-all"><a href="#">Tümünü Göster</a></li>
+            </ul>
+            <!--Category Yedek Parça, Aksesuar, Donanım & Tuning-->
+
+            <!--Category İkinci El ve Sıfır Alışveriş-->
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-ikinci-el-ve-sifir"><a href="#">İkinci El ve Sıfır
+                    Alışveriş</a> <span>(1.827.171)</span></li>
+                <li class="leftnav-category-item"><a href="#">Bilgisayar</a> <span>(711.908)</span></li>
+                <li class="leftnav-category-item"><a href="#">Cep Telefonu</a> <span>(133.321)</span></li>
+                <li class="leftnav-category-item"><a href="#">Fotoğraf & Kamera</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Ev Dekorasyon</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Ev Elektroniği</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Elektrikli Ev Aletleri</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Giyim & Aksesuar</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Saat</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Anne & Bebek</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Kişisel Bakım & Kozmetik</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Hobi & Oyuncak</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Oyun & Konsol</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Kitap, Dergi & Film</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Müzik</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Spor</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Takı, Mücevher & Altın</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Koleksiyon</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Antika</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Bahçe & Yapı Market</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Teknik Elektronik</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Ofis & Kırtasiye</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Yiyecek & İçecek</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Diğer Her Şey</a> <span>(190.886)</span></li>
+            </ul>
+            <!--Category İkinci El ve Sıfır Alışveriş-->
+
+            <!--Category İş Makineleri & Sanayi-->
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-is-makineleri"><a href="#">İş Makineleri & Sanayi</a> <span>(1.827.171)</span>
+                </li>
+                <li class="leftnav-category-item"><a href="#">İş Makineleri</a> <span>(711.908)</span></li>
+                <li class="leftnav-category-item"><a href="#">Tarım Makineleri</a> <span>(133.321)</span></li>
+                <li class="leftnav-category-item"><a href="#">Sanayi</a> <span>(190.886)</span></li>
+                <li class="leftnav-category-item"><a href="#">Elektrik & Enerji</a> <span>(190.886)</span></li>
+            </ul>
+            <!--Category İş Makineleri & Sanayi-->
+
+            <!--Category Ustalar ve Hizmetler-->
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-ustalar-hizmetler"><a href="#">Ustalar ve Hizmetler</a> <span>(1.827.171)</span>
+                </li>
+                <li class="leftnav-category-item"><a href="#">Ev Tadilat & Dekorasyon</a></li>
+                <li class="leftnav-category-item"><a href="#">Nakliye</a></li>
+                <li class="leftnav-category-item"><a href="#">Araç Servis & Bakım</a></li>
+                <li class="leftnav-category-item category-show-all"><a href="#">Tümünü Göster</a></li>
+            </ul>
+            <!--Category Ustalar ve Hizmetler-->
+
+            <!--Category Özel Ders Verenler-->
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-ozel-ders"><a href="#">Özel Ders Verenler</a>
+                    <span>(8.275)</span></li>
+                <li class="leftnav-category-item"><a href="#">Lise & Üniversite Hazırlık</a></li>
+                <li class="leftnav-category-item"><a href="#">İlköğretim</a></li>
+                <li class="leftnav-category-item"><a href="#">Yabancı Dil</a></li>
+                <li class="leftnav-category-item category-show-all"><a href="#">Tümünü Göster</a></li>
+            </ul>
+            <!--Category Özel Ders Verenler-->
+
+            <!--Category İş İlanları-->
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-is-ilanlari"><a href="#">İş İlanları</a> <span>(12.486)</span>
+                </li>
+                <li class="leftnav-category-item"><a href="#">Avukatlık & Hukuki Danışmanlık</a></li>
+                <li class="leftnav-category-item"><a href="#">Eğitim</a></li>
+                <li class="leftnav-category-item"><a href="#">Eğlence ve Aktiviteler</a></li>
+                <li class="leftnav-category-item"><a href="#">Güzellik ve Bakım</a></li>
+                <li class="leftnav-category-item"><a href="#">IT ve Yazılım Geliştirme</a></li>
+                <li class="leftnav-category-item"><a href="#">İnsan Kaynakları</a></li>
+                <li class="leftnav-category-item category-show-all"><a href="#">Tümünü Göster</a></li>
+            </ul>
+            <!--Category İş İlanları-->
+
+            <!--Category Yardımcı Arayanlar-->
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-yardimci-arayanlar"><a href="#">Yardımcı Arayanlar</a> <span>(1.240)</span>
+                </li>
+                <li class="leftnav-category-item"><a href="#">Bebek & Çocuk Bakıcısı</a></li>
+                <li class="leftnav-category-item"><a href="#">Yaşlı & Hasta Bakıcısı</a></li>
+                <li class="leftnav-category-item"><a href="#">Temizlikçi & Ev İşlerine Yardımcı</a></li>
+            </ul>
+            <!--Category Yardımcı Arayanlar-->
+
+            <!--Category Hayvanlar Alemi-->
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-hayvanlar-alemi"><a href="#">Hayvanlar Alemi</a> <span>(87.697)</span>
+                </li>
+                <li class="leftnav-category-item"><a href="#">Evcil Hayvanlar</a></li>
+                <li class="leftnav-category-item"><a href="#">Akvaryum Balıkları</a></li>
+                <li class="leftnav-category-item"><a href="#">Aksesuarlar</a></li>
+                <li class="leftnav-category-item"><a href="#">Bakım Ürünleri</a></li>
+                <li class="leftnav-category-item"><a href="#">Yem & Mama</a></li>
+                <li class="leftnav-category-item"><a href="#">Kümes Hayvanları</a></li>
+                <li class="leftnav-category-item"><a href="#">Büyükbaş Hayvanlar</a></li>
+                <li class="leftnav-category-item"><a href="#">Küçükbaş Hayvanlar</a></li>
+                <li class="leftnav-category-item category-show-all"><a href="#">Tümünü Göster</a></li>
+            </ul>
+            <!--Category Hayvanlar Alemi-->
+
+            <h3 class="category-title">Seçtiklerimiz</h3>
+            <ul class="leftnav-category">
+                <li class="leftnav-category-item category-hikayeni-paylas"><a href="#">Hikayeni Paylaş</a></li>
+                <li class="leftnav-category-item category-efsane-ilanlar"><a href="#">Efsane İlanlar</a></li>
+                <li class="leftnav-category-item category-ilginç-ilanlar"><a href="#">İlginç İlanlar</a></li>
+            </ul>
+
+            <h3 class="category-title">Haberler
+                <small>
+                    <a href="#">Tüm Haberler</a>
+                </small>
+            </h3>
+            <ul class="leftnav-category">
+                <li><a href="#" style="font-weight: normal">ECHO Awards'tan sahibinden.com'a 3 ödül</a></li>
+                <li><a href="#">sahibinden.com 6 Kategoride Altın Örümcek Ödülü'nün Sahibi Oldu!</a></li>
+            </ul>
+        </div>
+        <div class="col-9">
+            <div class="mt-5"></div>
+            Main area
+        </div>
+    </div>
+</div>
+<!-- Body Ends-->
+</body>
+</html>
