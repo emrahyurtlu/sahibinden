@@ -140,6 +140,7 @@ h3.category-title {
     font-size: 13px;
     font-weight: normal;
 }
+
 h3.category-title small {
     margin-top: 1px;
     font-size: 12px;
@@ -152,7 +153,7 @@ ul.leftnav-category {
     padding-left: 0;
 }
 
-.leftnav-category>li:first-child a {
+.leftnav-category > li:first-child a {
     color: #039;
     font-weight: bold;
     line-height: 20px;
@@ -231,6 +232,7 @@ ul.leftnav-category {
 .category-yedek-parca:before {
     background-position: 0 -768px;
 }
+
 .category-ikinci-el-ve-sifir:before {
     background-position: -360px -408px;
 }
@@ -296,3 +298,83 @@ ul.leftnav-category {
 }
 
 /*Left Nav Styles Ended */
+
+
+/* Main Section Styles Starts  */
+.width-100 {
+    width: 100px !important;
+}
+
+.height-150 {
+    height: 150px !important;
+}
+
+.width-330 {
+    width: 330px !important;
+}
+
+.productCard img {
+    display: block;
+    border: 1px solid #e6e6e6;
+    width: 104px;
+    height: 78px;
+}
+
+.productCard a {
+    color: #333;
+    font-size: 11px;
+}
+
+.projectCard {
+    width: calc(50% - 8px);
+    float: left;
+    padding: 16px 16px 0 0;
+}
+
+.projectCard img {
+    width: 100%;
+}
+
+.projectCard a {
+    font-size: 15px;
+    font-weight: normal;
+    color: #000;
+}
+
+#home-popular-products ul {
+    background: #ffffff url("../images/popular.png") no-repeat top;
+    overflow: hidden;
+    width: 835px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+#home-popular-products ul li {
+    float: left;
+    list-style-type: none;
+    width: 167px;
+}
+
+#home-popular-products ul li a {
+    display: block;
+    height: 150px;
+    overflow: hidden;
+}
+
+#home-popular-products ul li a p {
+    margin: 110px 0 2px 0;
+    font-size: 12px;
+    padding: 0;
+}
+
+.badge-home {
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #44474e;
+    font-size: 12px;
+}
+
+/* Main Section Styles Ends  */
