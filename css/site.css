@@ -458,10 +458,6 @@ footer ul.contact-menu li:before {
     vertical-align: middle;
 }
 
-/*footer .contact-menu .help-center a {
-    color: #555;
-}*/
-
 .contact-menu li.store-logos {
     width: 202px;
     height: 30px;
@@ -508,6 +504,5 @@ footer .warning-text {
     border-left: 1px solid #dadada;
     float: right;
 }
-
 
 /* Footer Section Ended*/
