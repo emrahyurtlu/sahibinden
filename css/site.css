@@ -378,3 +378,136 @@ ul.leftnav-category {
 }
 
 /* Main Section Styles Ends  */
+
+/* Footer Section Started*/
+footer {
+    border-top: 1px solid #dfdfdf;
+    background: #f9f9f9;
+    position: relative;
+    clear: left;
+    margin-top: 28px;
+}
+
+footer:before {
+    content: '';
+    background: #fff;
+    display: block;
+    height: 1px;
+    width: 100%;
+}
+
+.footer-nav {
+    min-width: 19%;
+}
+
+.footer-nav li h2 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.footer-nav li > ul li a {
+    color: #888;
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+}
+
+footer ul.contact-menu li {
+    float: left;
+    padding-left: 50px;
+    margin: 30px 40px 10px 0;
+    font-weight: 700;
+    position: relative;
+}
+
+.contact-menu li > p {
+    color: #c55353;
+    margin-top: 2px;
+    font-weight: 700;
+}
+
+.contact-menu li > p + span, .contact-menu li > p + a {
+    color: #555;
+}
+
+footer ul.contact-menu li:before {
+    position: absolute;
+    left: 0;
+    top: -3px;
+}
+
+.contact-menu li.call-center:before {
+    background-image: url("../images/footer_icons.png");
+    background-position: -42px -42px;
+    width: 42px;
+    height: 42px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    top: -4px;
+}
+
+.contact-menu li.help-center:before {
+    background-image: url("../images/footer_icons.png");
+    background-position: 0 -84px;
+    width: 42px;
+    height: 42px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*footer .contact-menu .help-center a {
+    color: #555;
+}*/
+
+.contact-menu li.store-logos {
+    width: 202px;
+    height: 30px;
+    float: right;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    top: 2px;
+}
+
+.contact-menu li.store-logos .store-logo {
+    width: 96px;
+    height: 30px;
+    display: inline-block;
+    background: url("../images/app_markets.png") top left no-repeat;
+}
+
+.contact-menu li.store-logos .store-logo.googleplay {
+    background-position: 0 0;
+}
+
+.contact-menu li.store-logos .store-logo.apple {
+    background-position: -96px 0;
+}
+
+footer .warning-text {
+    font-size: 11px;
+    color: #888;
+    padding: 12px;
+    background: #fff;
+    border: 1px dashed #ccc;
+    border-radius: 2px;
+    margin: 8px 0;
+}
+
+.copyright {
+    color: #555;
+    font-size: 11px;
+}
+
+.language-selection-link {
+    padding-left: 15px;
+    margin-left: 15px;
+    border-left: 1px solid #dadada;
+    float: right;
+}
+
+
+/* Footer Section Ended*/
