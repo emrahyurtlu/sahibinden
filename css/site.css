@@ -506,3 +506,55 @@ footer .warning-text {
 }
 
 /* Footer Section Ended*/
+
+/* Product Page Styles Starts */
+.breadcrumb-bg {
+    background-color: #f2f2f2;
+    background-repeat: repeat-x;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 0 4px 0 rgba(0, 0, 0, 0.06), 1px 0 2px 0 rgba(0, 0, 0, 0.08);
+    line-height: 30px;
+}
+
+.breadcrumb-custom {
+    padding: 0 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: inherit;
+    border-radius: 0;
+    line-height: 30px;
+}
+
+.breadcrumb-custom .breadcrumb-item:before {
+    content: none;
+}
+
+.breadcrumb-custom .breadcrumb-item a {
+    color: #00339f;
+    padding-left: 10px;
+    background: url("../images/detail_icons.png") 1px -915px no-repeat;
+    font-size: 11px;
+    display: inline-block;
+    line-height: 15px;
+}
+.breadcrumb-right-nav { margin-top: 1px;}
+.breadcrumb-right-nav ul li a {
+    line-height: 15px;
+    font-size: 10px;
+    padding: 0.4rem .3rem;
+}
+
+.seperator {
+    border-right: 1px solid #d4d3d3;
+}
+
+h1 {
+    font-size: 18px;
+    color: #333;
+    /*padding: 15px 0 12px;*/
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+/* Product Page Styles Ends */
