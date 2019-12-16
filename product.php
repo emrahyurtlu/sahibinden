@@ -104,10 +104,10 @@
             <h1 class="d-inline-block">A 180 SADECE 6 BIN KM DE AMG CAM TAVANLI</h1>
 
             <nav class="nav float-right">
-                <a class="nav-link active" href="#">Active</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link pt-0" href="#">Favorilerime Ekle</a>
+                <a class="nav-link pt-0" href="#">Yazdır</a>
+                <a class="nav-link pt-0" href="#">Link</a>
+                <a class="nav-link pt-0" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </nav>
         </div>
     </div>
