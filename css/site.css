@@ -614,11 +614,16 @@ h1 {
     float: left;
     width: 100px;
     height: 75px;
-    margin: 5px 5px 5px 0;
+    margin: 3px 3px 3px 0;
+    border: 1px solid #dee2e6;
 }
 
-.product-thumb:hover {
+.product-thumb:hover, #product-img-showcase:hover {
     cursor: pointer;
+}
+
+.product-thumb-active {
+    border: 1px solid #039;
 }
 
 .price {
@@ -654,6 +659,37 @@ h1 {
 
 .color-red {
     color: #f00;
+}
+
+.product-feedback:before {
+    content: '';
+    background-image: url("../images/detailed_icons2.png");
+    background-position: -397px -13px;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    padding-right: 15px;
+}
+
+.product-feedback:hover:before {
+    content: '';
+    background-image: url("../images/detailed_icons2.png");
+    background-position: -410px 0;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    padding-right: 15px;
+}
+
+#insurance-disclaimer {
+    margin-top: 26px;
+    color: #999;
+    font-size: 10px;
+    font-weight: normal;
 }
 
 

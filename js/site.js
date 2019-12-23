@@ -1,23 +1,24 @@
 function search() {
     console.log("Focused on search bar!");
 }
+//Product Page Active image number
+var activeImg = 1;
 
-function changeImg(thumb, num) {
+function changeImg(num) {
     console.log(num);
-    console.log(thumb);
-
     if (num !== "") {
+
+        let thumbs = document.getElementsByClassName('product-thumb');
+        activeImg = num > thumbs.length ? 1 : num;
+
         //Set showcase image
-        let element = document.getElementById("product-img-showcase");
-        element.src = 'images/thumbs/big/1/' + num + '.jpg';
+        let showCase = document.getElementById("product-img-showcase");
+        showCase.src = 'images/thumbs/big/1/' + activeImg + '.jpg';
 
         //Remove active borders fromm all thumbs
-        let thumbs = document.getElementsByClassName('product-thumb');
-        for(let i = 0; i<thumbs.length; i++) {
-            let item = thumbs.item(i);
-            item.style.border = '1px solid #dee2e6';
+        for (let i = 0; i < thumbs.length; i++) {
+            let item = thumbs.item(i).classList.remove("product-thumb-active");
         }
-
-        thumb.style.border = '1px solid #039';
+        document.getElementById("img-" + activeImg).classList.add("product-thumb-active");
     }
 }
