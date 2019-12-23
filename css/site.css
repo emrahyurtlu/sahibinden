@@ -692,5 +692,103 @@ h1 {
     font-weight: normal;
 }
 
+.yourSecurity {
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.yourSecurity h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.ui-panel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dedede;
+}
+
+.ui-panel-header {
+    border-bottom: 1px solid #dedede;
+    padding: 6px 10px 7px 10px;
+    background: -webkit-linear-gradient(top, #fff 0, #efefef 100%);
+}
+
+.ui-panel-header a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    background: url("../images/detail_icons.png") 1068px -189px no-repeat;
+}
+
+.ui-panel-content {
+    padding: 15px;
+    color: #000;
+    background-color: #fff;
+    display: block;
+}
+
+.ui-panel-show {
+    display: block;
+}
+
+.ui-panel-hide {
+    display: none;
+}
+
+.ui-panel-content h3 {
+    color: #049aff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ui-panel-content ul {
+    border: 1px solid #ffeaa5;
+    background: #fffced;
+    padding: 10px 5px 15px 15px;
+    margin: 5px 0 25px 0;
+    list-style: none;
+}
+
+.ui-panel-content ul:before {
+    display: table;
+    content: "";
+    zoom: 1;
+}
+
+.ui-panel-content ul:after {
+    display: table;
+    content: "";
+    zoom: 1;
+}
+
+.ui-panel-content ul li {
+    float: left;
+    width: 210px;
+    height: 26px;
+    display: block;
+    padding: 5px 0 5px 20px;
+    font-weight: bold;
+    color: #a7a9ac;
+}
+
+.ui-panel-content ul li.selected {
+    background: url("../images/detail_icons.png") -1px -134px no-repeat;
+    color: #000;
+}
+
+.yellow-bg {
+    border: 1px solid #ffeaa5;
+    background: #fffced;
+    margin: 5px 0 25px 0;
+    padding: 20px 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
 
 /* Product Page Styles Ends */
