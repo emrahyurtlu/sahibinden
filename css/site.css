@@ -1,5 +1,12 @@
+@font-face {
+    font-family: "Lucida Grande";
+    src: url("../fonts/lucida-grande.woff");
+}
+
+
 body {
     font-size: 12px;
+    font-family: "Lucida Grande", Arial, sans-serif;
 }
 
 a {
@@ -536,7 +543,11 @@ footer .warning-text {
     display: inline-block;
     line-height: 15px;
 }
-.breadcrumb-right-nav { margin-top: 1px;}
+
+.breadcrumb-right-nav {
+    margin-top: 1px;
+}
+
 .breadcrumb-right-nav ul li a {
     line-height: 15px;
     font-size: 10px;
@@ -550,11 +561,100 @@ footer .warning-text {
 h1 {
     font-size: 18px;
     color: #333;
-    /*padding: 15px 0 12px;*/
-    white-space: nowrap;
-    overflow: hidden;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
+    font-weight: bold;
 }
+
+.h1-divider {
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+}
+
+.breadcrumb-nav {
+    display: inline-block;
+    padding-left: 17px;
+    color: #00339f;
+    font-size: 11px;
+    height: 18px;
+}
+
+#addFav {
+    background: url("../images/detail_icons.png") 0 -23px no-repeat;
+}
+
+#print {
+    background: url("../images/detail_icons.png") 0 -71px no-repeat;
+}
+
+.share-icon {
+    display: inline-block;
+    text-indent: -999px;
+    overflow: hidden;
+    width: 19px;
+    height: 19px;
+    background: url("../images/share.png") no-repeat;
+    padding: 0;
+    margin-left: 6px;
+}
+
+
+#facebook {
+    margin-left: 20px;
+    background-position: 0 0;
+}
+
+#twitter {
+    background-position: -25px 0;
+}
+
+#email {
+    background-position: -75px 0;
+}
+
+.product-thumb {
+    float: left;
+    width: 100px;
+    height: 75px;
+    margin: 5px 5px 5px 0;
+}
+
+.product-thumb:hover {
+    cursor: pointer;
+}
+
+.price {
+    font-size: 16px;
+    color: #039;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.classifiedInfoList {
+    padding-top: 4px;
+    padding-left: 0;
+}
+
+.classifiedInfoList li {
+    border-bottom: 1px dotted #ccc;
+    padding: 5px 0;
+    zoom: 1;
+    list-style-type: none;
+}
+
+.classifiedInfoList li:before {
+    display: table;
+    content: "";
+    zoom: 1;
+}
+
+.classifiedInfoList li strong {
+    width: 115px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.color-red {
+    color: #f00;
+}
+
 
 /* Product Page Styles Ends */
