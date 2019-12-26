@@ -1,3 +1,7 @@
+/*
+    Burada ölçü birimi olarak rem kullanıldı
+    1rem = 16px olduğu hususunda bilgi sahibiyiz.
+*/
 .m-auto {
     margin: auto !important;
 }
