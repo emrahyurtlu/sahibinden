@@ -1,3 +1,4 @@
+<?php include 'config.php'; ?>
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -24,6 +25,7 @@
             <img src="assets/images/ads/ad-1.png" class="ml-auto mr-auto display-block mt-2" alt="Ad 1">
         </div>
     </div>
+    <!-- Left Navigation -->
     <div class="row">
         <div class="column-3">
             <div class="margin-top-16"></div>
@@ -206,283 +208,283 @@
             <div class="margin-top-16"></div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_1.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_1.jpg" alt="Image"></a>
+                <a href="product.php?id=1">Mercedes A 180...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_2.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_2.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_3.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_3.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_4.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_4.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_5.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_5.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_6.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_6.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_7.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_7.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_8.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_8.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_9.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_9.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_10.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_10.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_11.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_11.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_12.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_12.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_13.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_13.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_14.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_14.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_15.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_15.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_1.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_1.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_2.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_2.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_3.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_3.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_4.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_4.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_5.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_5.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_6.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_6.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_7.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_7.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_8.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_8.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_9.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_9.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_10.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_10.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_11.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_11.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_12.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_12.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_13.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_13.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_14.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_14.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_15.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_15.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_1.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_1.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_2.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_2.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_3.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_3.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_4.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_4.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_5.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_5.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_6.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_6.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_7.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_7.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_8.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_8.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_9.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_9.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_10.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_10.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_11.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_11.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_12.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_12.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_13.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_13.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_14.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_14.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_15.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_15.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_1.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_1.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_2.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_2.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_3.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_3.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_4.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_4.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_5.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_5.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_6.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_6.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_7.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_7.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_8.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_8.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_9.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_9.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_10.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_10.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="product-card">
-                <a href="#"><img src="assets/images/thumbs/thmb_11.jpg" alt="Image"></a>
-                <a href="#">2015 Highline Dsg...</a>
+                <a href="product.php?id=1"><img src="assets/images/thumbs/thmb_11.jpg" alt="Image"></a>
+                <a href="product.php?id=1">2015 Highline Dsg...</a>
             </div>
 
             <div class="clearfix"></div>

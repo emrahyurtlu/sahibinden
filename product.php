@@ -1,9 +1,28 @@
+<?php
+include 'config.php';
+$product_id = $_GET['id'];
+    
+if (empty($product_id))
+    header('Location: /');
+
+$sql = "SELECT * FROM product where product_id=" . $product_id;
+$query = mysqli_query($conn, $sql);
+$product = mysqli_fetch_object($query);
+
+if (empty($product))
+    header('Location: /');
+
+/*echo "<pre>";
+print_r($product);
+echo "</pre>";*/
+
+?>
 <!DOCTYPE html>
 <html lang="tr">
 <head>
     <?php include 'includes/head.inc.php'; ?>
-    <title>Mercedes - Benz / A Serisi / A 180 d / AMG / A 180 SADECE 6 BIN KM DE AMG CAM TAVANLI sahibinden.comda -
-        760039038</title>
+    <title>Mercedes - Benz / A Serisi / A 180 d / AMG / <?php echo $product->title ?>> sahibinden.comda -
+        <?php echo $product->product_id ?></title>
 </head>
 <body>
 <!-- Header Starts -->
@@ -62,7 +81,7 @@
     <div class="row">
         <div class="column-12">
             <div class="margin-top-16"></div>
-            <h1 class="display-inline-block">A 180 SADECE 6 BIN KM DE AMG CAM TAVANLI</h1>
+            <h1 class="display-inline-block"><?php echo $product->title ?></h1>
 
             <nav class="float-right">
                 <a class="pt-0 breadcrumb-nav mr-1" href="#" id="addFav">Favorilerime Ekle</a>
@@ -235,13 +254,7 @@
                 <div class="ui-panel-content" id="product-details">
                     <div class="d-flex justify-content-between">
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book. It has survived not only five
-                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                            passages, and more recently with desktop publishing software like Aldus PageMaker including
-                            versions of Lorem Ipsum.
+                            <?php echo $product->summary ?>
                         </p>
                     </div>
                 </div>
