@@ -1,7 +1,7 @@
 <?php
 include 'config.php';
 $product_id = $_GET['id'];
-    
+
 if (empty($product_id))
     header('Location: /');
 
@@ -21,8 +21,7 @@ echo "</pre>";*/
 <html lang="tr">
 <head>
     <?php include 'includes/head.inc.php'; ?>
-    <title>Mercedes - Benz / A Serisi / A 180 d / AMG / <?php echo $product->title ?>> sahibinden.comda -
-        <?php echo $product->product_id ?></title>
+    <title><?php echo $product->brand . " > " . $product->model . " > " . $product->title ?></title>
 </head>
 <body>
 <!-- Header Starts -->
@@ -46,10 +45,9 @@ echo "</pre>";*/
                     <ol class="breadcrumb-custom">
                         <li class="breadcrumb-item float-left mr-1"><a href="#">Vasıta</a></li>
                         <li class="breadcrumb-item float-left mr-1"><a href="#">Otomobil</a></li>
-                        <li class="breadcrumb-item float-left mr-1"><a href="#">Mercedes-Benz</a></li>
-                        <li class="breadcrumb-item float-left mr-1"><a href="#">A Serisi</a></li>
-                        <li class="breadcrumb-item float-left mr-1"><a href="#">A 180 d</a></li>
-                        <li class="breadcrumb-item float-left mr-1"><a href="#">AMG</a></li>
+                        <li class="breadcrumb-item float-left mr-1"><a href="#"><?php echo $product->brand ?></a></li>
+                        <li class="breadcrumb-item float-left mr-1"><a href="#"><?php echo $product->model ?></a></li>
+                        <li class="breadcrumb-item float-left mr-1"><a href="#"><?php echo $product->package ?></a></li>
                     </ol>
                 </nav>
             </div>
@@ -94,37 +92,39 @@ echo "</pre>";*/
             <div class="h1-divider mb-3"></div>
         </div>
     </div>
+    <?php
+    $sql = "SELECT * FROM product_images where product_id=" . $product_id;
+    $query = mysqli_query($conn, $sql);
+    $images = mysqli_fetch_all($query);
+    $cover_url = $images[0][2];
+    /*echo "<pre>";
+    print_r($images);
+    echo "</pre>";*/
+    ?>
     <div class="row">
         <div class="column-6">
             <div class="row">
                 <div class="column-12">
-                    <img src="assets/images/thumbs/big/1/1.jpg" onclick="changeImg(++activeImg)"
+                    <img src="<?php echo $cover_url ?>" onclick="changeImg(++activeImg)"
                          id="product-img-showcase"
                          alt="Product Image"/>
                 </div>
-                <div class="column-12">
-                    <img onclick="changeImg('1')" id="img-1" class="product-thumb product-thumb-active"
-                         src="assets/images/thumbs/big/1/1.jpg" alt="Product Image">
-                    <img onclick="changeImg('2')" id="img-2" class="product-thumb"
-                         src="assets/images/thumbs/big/1/2.jpg" alt="Product Image">
-                    <img onclick="changeImg('3')" id="img-3" class="product-thumb"
-                         src="assets/images/thumbs/big/1/3.jpg" alt="Product Image">
-                    <img onclick="changeImg('4')" id="img-4" class="product-thumb"
-                         src="assets/images/thumbs/big/1/4.jpg" alt="Product Image">
-                    <img onclick="changeImg('5')" id="img-5" class="product-thumb"
-                         src="assets/images/thumbs/big/1/5.jpg" alt="Product Image">
-                    <img onclick="changeImg('6')" id="img-6" class="product-thumb"
-                         src="assets/images/thumbs/big/1/6.jpg" alt="Product Image">
-                    <img onclick="changeImg('7')" id="img-7" class="product-thumb"
-                         src="assets/images/thumbs/big/1/7.jpg" alt="Product Image">
-                    <img onclick="changeImg('8')" id="img-8" class="product-thumb"
-                         src="assets/images/thumbs/big/1/8.jpg" alt="Product Image">
+                <div class="column-12" id="product-images-container">
+                    <?php
+                    $imageId = 0;
+                    for($i=0; $i<count($images); $i++){
+                        $image_url = $images[$i][2];
+                        $imageId = $i +1;
+                        echo "<img onclick=\"changeImg('$imageId')\" id=\"img-$imageId\" class=\"product-thumb\"
+                         src=\"$image_url\" alt=\"$product->title\">";
+                    }
+                    ?>
                 </div>
             </div>
         </div>
         <div class="column-3">
             <h3 class="price">
-                259.500 TL
+                <?php echo number_format($product->price, 0, ',', '.') ?> TL
             </h3>
 
             <div style="font-size: 12px; font-weight: bold">
@@ -138,45 +138,43 @@ echo "</pre>";*/
             <ul class="classifiedInfoList">
                 <li>
                     <strong>İlan No</strong>&nbsp;
-                    <span class="color-red">765908727</span>
+                    <span class="color-red"><?php echo $product->product_id ?></span>
                 </li>
                 <li>
                     <strong>
                         İlan Tarihi</strong>&nbsp;
-                    <span>
-                22 Aralık 2019</span>
+                    <?php
+                    $date = new DateTime($product->publish_date);
+                    ?>
+                    <span><?php echo strftime('%d %B %Y', $date->getTimestamp()) ?></span>
                 </li>
                 <li>
                     <strong>Marka</strong>&nbsp;
-                    <span>Mercedes - Benz&nbsp;</span>
+                    <span><?php echo $product->brand ?></span>
                 </li>
                 <li>
                     <strong>Seri</strong>&nbsp;
-                    <span>A Serisi&nbsp;</span>
+                    <span><?php echo $product->serie ?></span>
                 </li>
                 <li>
                     <strong>Model</strong>&nbsp;
-                    <span>A 180 d AMG&nbsp;</span>
+                    <span><?php echo $product->model ?></span>
                 </li>
                 <li>
                     <strong>Yıl</strong>&nbsp;
-                    <span>
-                	2018</span>
+                    <span><?php echo $product->year ?></span>
                 </li>
                 <li>
                     <strong>Yakıt</strong>&nbsp;
-                    <span>
-                	Dizel</span>
+                    <span><?php echo $product->fuel_type ?></span>
                 </li>
                 <li>
                     <strong>Vites</strong>&nbsp;
-                    <span>
-                	Otomatik</span>
+                    <span><?php echo $product->gear_type ?></span>
                 </li>
                 <li>
                     <strong>KM</strong>&nbsp;
-                    <span>
-                	78.000</span>
+                    <span><?php echo number_format($product->km, 0, ",", ".") ?></span>
                 </li>
                 <li>
                     <strong>Kasa Tipi</strong>&nbsp;

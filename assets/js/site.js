@@ -12,6 +12,9 @@ function searchReset() {
 
 //Product Page Active image number
 var activeImg = 1;
+window.onload = function () {
+    window.document.getElementById("product-images-container").children.item(0).classList.add("product-thumb-active");
+}
 
 function changeImg(num) {
     console.log(num);

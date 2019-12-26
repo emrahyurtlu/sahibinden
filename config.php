@@ -1,11 +1,6 @@
 <?php
-/*$conn = mysqli_connect('localhost', 'root', 'root', 'sahibinden');
-print_r(mysqli_num_rows());
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-echo "Connected successfully";*/
 
+setlocale(LC_TIME, 'tr_TR');
 
 $host="localhost";
 $port=3306;
