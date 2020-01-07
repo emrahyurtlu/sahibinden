@@ -1,3 +1,6 @@
+CREATE DATABASE sahibinden CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE sahibinden;
+
 -- MySQL dump 10.13  Distrib 5.7.28, for Linux (x86_64)
 --
 -- Host: localhost    Database: sahibinden

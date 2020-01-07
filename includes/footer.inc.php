@@ -1,3 +1,4 @@
+<?php //mysqli_close($conn); ?>
 <footer>
     <div class="box">
         <div class="row">
@@ -103,7 +104,7 @@
         <div class="row">
             <div class="column-6">
                 <p class="copyright">
-                    Copyright © 2000-2019 sahibinden.com</p>
+                    Copyright © 2000-2020 sahibinden.com</p>
             </div>
             <div class="column-6">
                 <a rel="nofollow" href="#" title="English" class="language-selection-link ">English</a>

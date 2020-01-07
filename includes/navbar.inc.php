@@ -17,13 +17,13 @@
     <div class="display-inline-block float-right">
         <ul id="navbar-right">
             <li class="float-left">
-                <a class="right-nav-link" href="#">Giriş Yap</a>
+                <a class="right-nav-link" href="login.php">Giriş Yap</a>
             </li>
             <li class="float-left">
                 <span style="color: #fff;">|</span>
             </li>
             <li class="float-left">
-                <a class="right-nav-link" id="register-link" href="#">Üye Ol</a>
+                <a class="right-nav-link" id="register-link" href="register.php">Üye Ol</a>
             </li>
 
             <li class="float-left">

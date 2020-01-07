@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+require 'config.php';
 $product_id = $_GET['id'];
 
 if (empty($product_id))

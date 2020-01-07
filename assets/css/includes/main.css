@@ -31,17 +31,12 @@
 }
 
 
-
-
-
 .btn {
     border-radius: 2px !important;
     font-family: 'Lucida Grande', 'LucidaGrande', Arial, sans-serif !important;
     text-shadow: 1px 1px 0 #29619b !important;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 2px 2px -1px rgba(0, 0, 0, 0.15) !important;
 }
-
-
 
 
 .font-weight-bold {
@@ -60,7 +55,6 @@
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-
 
 
 /*Left Nav Styles Started */
@@ -320,7 +314,6 @@ ul.leftnav-category {
 }
 
 /* Main Section Styles Ends  */
-
 
 
 /* Product Page Styles Starts */
@@ -601,6 +594,66 @@ h1 {
 
 .badge-list li {
     margin-bottom: 8px;
+}
+
+.login-frame {
+    border: 1px solid #dfdfdf;
+    padding: 70px 78px 148px 77px;
+    margin: 0;
+    margin-bottom: 20px;
+    max-width: 325px;
+    max-height: 276px;
+    border-radius: 3px;
+    color: #36454d;
+}
+
+.login-frame h3 {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.login-frame label {
+    font-size: 13px;
+}
+
+.login-frame .form-control {
+    border-radius: 0;
+    padding: 0 8px;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 307px;
+    border: 1px solid #d6d4d4;
+}
+
+.btn-login {
+    background: #489ae9;
+    box-shadow: 1px 0 2px 0 rgba(0,0,0,0.13), 0 0 4px 0 rgba(0,0,0,0.11), 0 2px 3px 0 rgba(0,0,0,0.16);
+    border-radius: 2px;
+    border: 0;
+    text-shadow: none;
+    font-weight: bold;
+    height: 50px;
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    color: white;
+}
+
+.btn-register {
+    padding: 15px 22px;
+    background: #fafafa;
+    box-shadow: 1px 0 2px 0 rgba(0,0,0,0.13), 0 0 4px 0 rgba(0,0,0,0.11), 0 2px 3px 0 rgba(0,0,0,0.16);
+    border-radius: 2px;
+    border: 0;
+    font-weight: bold;
+    height: 50px;
+    font-size: 16px;
+    text-shadow: 0 2px 11px #fff;
+    color: #489ae8;
+    width: 100%;
+    display: block;
 }
 
 /* Product Page Styles Ends */
