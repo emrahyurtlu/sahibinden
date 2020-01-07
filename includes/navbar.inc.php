@@ -22,7 +22,7 @@
                 $link = "";
 
                 if ($_SESSION["user"] !== null) {
-                    $link = "<a class=\"right-nav-link\" href=\"panel.php\">{$_SESSION["user"]->name}</a>";
+                    $link = "<a class=\"right-nav-link\" href=\"panel.php\">{$_SESSION["user"]->name_surname}</a>";
                 } else {
                     $link = "<a class=\"right-nav-link\" href=\"login.php\">Giriş Yap</a>";
                 }

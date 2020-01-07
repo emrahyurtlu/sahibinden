@@ -1,6 +1,5 @@
 <?php
 include 'config.php';
-include 'functions.php';
 
 $message = "";
 if (!empty($_POST)) {
@@ -8,14 +7,14 @@ if (!empty($_POST)) {
     $username = trim($_POST['username']);
     $password = trim($_POST['password']);
 
-    $sql = "INSERT INTO users (`email`, `pass`, `name`) VALUES ('$username', MD5($password), '$name')";
+    $sql = "INSERT INTO users (`email`, `pass`, `name_surname`) VALUES ('$username', MD5($password), '$name')";
     $query = mysqli_query($conn, $sql);
 
     if ($query) {
         $message = "Başarıyla kayıt oldunuz. Giriş yapabilirsiniz.";
 
         $user = new stdClass();
-        $user->name = $name;
+        $user->name_surname = $name;
         $user->email = $username;
 
         $_SESSION["user"] = $user;

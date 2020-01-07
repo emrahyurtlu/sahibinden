@@ -5,24 +5,27 @@ if ($_SESSION["user"] == null) {
 }
 function changeName($name)
 {
-    $id = $_SESSION["user"]->id;
-    $sql = "UPDATE users SET `name`='$name' WHERE `id`=$id";
-    if(mysqli_query($conn, $sql)){
-        $_SESSION["user"]->name = $name;
+    $id = $_SESSION["user"]->user_id;
+    $sql = "UPDATE users SET `name_surname`='$name' WHERE `user_id`=$id";
+    $query = mysqli_query($conn, $sql);
+
+    if($query){
+        $_SESSION["user"]->name_surname = $name;
     } else {
-        echo "ERROR: Could not able to execute: $sql "
-            . mysqli_error($conn);
+        echo mysqli_connect_error();
     }
 }
 
 function changePassword($password)
 {
-    $sql = "UPDATE users SET pass=MD5('$password') WHERE id={$_SESSION["user"]->id}";
-    if (mysqli_query($conn, $sql)) {
-        echo "Record was updated successfully.";
+    $id = $_SESSION["user"]->user_id;
+    $sql = "UPDATE users SET `pass`=MD5($password) WHERE `user_id`=$id";
+    $query = mysqli_query($conn, $sql);
+
+    if ($query) {
+        // echo "Record was updated successfully.";
     } else {
-        echo "ERROR: Could not able to execute $sql. "
-            . mysqli_error($conn);
+        echo mysqli_connect_error();
     }
 }
 
@@ -41,6 +44,7 @@ if (!empty($_POST)) {
         $password2 = trim($_POST['password2']);
         if ($password == $password2) {
             changePassword($password);
+            $message2 = "İşleminiz başarıyla gerçekleştirildi.";
         } else {
             $message2 = "Girdiğiniz şifreler aynı değil. Lütfen tekrar deneyiniz.";
         }
@@ -80,7 +84,7 @@ if (!empty($_POST)) {
                     <div class="form-group">
                         <label for="name" class="control-label">Ad Soyad</label>
                         <input type="text" id="name" name="name" class="form-control"
-                               placeholder="Lütfen ad soyad giriniz" value="<?php echo $_SESSION["user"]->name; ?>"
+                               placeholder="Lütfen ad soyad giriniz" value="<?php echo $_SESSION["user"]->name_surname; ?>"
                                required></div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-login">Kaydet</button>
