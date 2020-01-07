@@ -17,13 +17,31 @@
     <div class="display-inline-block float-right">
         <ul id="navbar-right">
             <li class="float-left">
-                <a class="right-nav-link" href="login.php">Giriş Yap</a>
+                <?php
+
+                $link = "";
+
+                if ($_SESSION["user"] !== null) {
+                    $link = "<a class=\"right-nav-link\" href=\"panel.php\">{$_SESSION["user"]->name}</a>";
+                } else {
+                    $link = "<a class=\"right-nav-link\" href=\"login.php\">Giriş Yap</a>";
+                }
+
+                echo $link;
+
+                ?>
             </li>
             <li class="float-left">
                 <span style="color: #fff;">|</span>
             </li>
             <li class="float-left">
-                <a class="right-nav-link" id="register-link" href="register.php">Üye Ol</a>
+                <?php
+                if ($_SESSION["user"] == null) {
+                    ?>
+                    <a class="right-nav-link" id="register-link" href="register.php">Üye Ol</a>
+                <?php } else { ?>
+                    <a class="right-nav-link" id="register-link" href="logout.php">Çıkış</a>
+                <?php } ?>
             </li>
 
             <li class="float-left">

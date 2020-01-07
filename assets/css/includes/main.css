@@ -656,4 +656,5 @@ h1 {
     display: block;
 }
 
+.btn-register:hover {cursor: pointer}
 /* Product Page Styles Ends */
